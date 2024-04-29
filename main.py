@@ -9,7 +9,7 @@ from pymongo import MongoClient
 
 
 #Connection to store dada into database
-client = MongoClient('mongodb+srv://purtidpatil:admin@renttrack-db.al3r5mc.mongodb.net/?retryWrites=true&w=majority&appName=renttrack-db')
+client = MongoClient('*****link of mongoDB database******')
 db = client['renttrack-db']
 collection = db['tenant']
 
