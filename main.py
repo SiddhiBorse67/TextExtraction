@@ -53,6 +53,7 @@ orb=cv2.ORB_create(1000)
 kp1,des1=orb.detectAndCompute(imgQ,None)
 # impKp1=cv2.drawKeypoints(imgQ,kp1,None)
 # path='userforms'
+#give specific path form
 path="C:\\Users\\Asus\\Desktop\\PBL project\\pythonProject1 - Copy\\userform1"
 myPicList=os.listdir(path)
 print(myPicList)
